@@ -751,8 +751,7 @@ $settings['file_scan_ignore_directories'] = [
  */
 #
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+}
 $databases['default']['default'] = array (
   'database' => 'digital',
   'username' => 'dbuser',
@@ -765,3 +764,5 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/digital/files/config_nQYO1ndSlLN4OhRBnXWr010hLVE-TnA-TWqgI3s-fcxgBmAPfVneE-6r4LQ8J1k1Z6tolFaQYA/sync';
+
+
